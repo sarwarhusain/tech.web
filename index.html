@@ -17,7 +17,7 @@
     <header
       class="border border-[rgba(65,37,103,1)] bg-[rgba(26,11,46,1)] text-white"
     >
-      <nav class="shadow-3xl">
+      <nav class="shadow-3xl md:mx-[200px] my-[36px]">
         <div class="max-w-7xl mx-auto px-4">
           <div class="flex items-center justify-between items-center h-16">
             <!-- logo -->
@@ -35,7 +35,9 @@
               <li><a href="" class="hover:text-cyan-500">Episodes</a></li>
               <li><a href="" class="hover:text-cyan-500">Host</a></li>
             </ul>
-            <button class="gap-4 hidden md:block gradient-bg p-3 text-sm rounded-3xl">
+            <button
+              class="gap-4 hidden md:block gradient-bg p-3 text-sm rounded-3xl"
+            >
               Downloaded<span>→</span>
             </button>
             <!-- hamburger -->
@@ -48,5 +50,109 @@
         </div>
       </nav>
     </header>
+    <main class="">
+      <!-- banner -->
+      <section>
+        <div class="flex justify-center">
+          <div
+            class="w-full max-w-[1600px] h-[660px] bg-center bg-cover bg-no-repeat banner-bg-img"
+          >
+            <div class="relative flex justify-center items-center">
+              <p
+                class="bg-green-500 border text-black rounded-3xl px-3 py-2 absolute -mt-40 -mr-43"
+              >
+                New
+              </p>
+              <!-- microphone img -->
+              <img
+                class="absolute -top z-20 w-[116.67px] mt-20"
+                src="./assets/microphone.png"
+                alt=""
+              />
+              <!-- circle img -->
+              <img
+                class="microphone mx-auto mt-25 w-[300px] h-[300px]"
+                src="./assets/hero-circle.png"
+                alt=""
+              />
+            </div>
+            <div class="text-white text-center">
+              <div class="mt-8">
+                <h2 class="text-4xl">TechWave</h2>
+                <p>
+                  Your daily dose of tech insights, productivity hacks, and
+                  personal growth
+                </p>
+              </div>
+              <div class="flex justify-center items-center gap-3 mt-5">
+                <button class="flex gap-3 gradient-bg p-3 text-sm rounded-3xl">
+                  <img src="./assets/spotify.png" alt="" /> Listen on Spotify
+                </button>
+                <button
+                  class="flex px-auto p-3 text-sm gap-3 border border-green-300 rounded-3xl"
+                >
+                  <img class="w-auto" src="./assets/message.png" alt="" /><span
+                    class="text-green-500"
+                    >Subscribe</span
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about the wave -->
+      <section
+        class="w-full max-w-[1600px] h-[646px] bg-[#1A0B2E]"
+      >
+        <div class="text-center text-white p-2">
+          <div class="md:mx-[200px] md:mt-[50px] md:mb-[120px] lg:about">
+            <h2 class="text-3xl">About the Podcast</h2>
+            <p class="mt-4 text-[16px]">
+              TechWave is your go-to podcast for staying ahead in the fast-paced
+              world of technology. <br />
+              We break down complex topics into digestible insights, explore
+              productivity strategies that actually work, and share stories of
+              personal growth from industry leaders. <br />
+              <br />
+              <br />
+              Join thousands of young professionals and tech enthusiasts who
+              start their day with TechWave.
+            </p>
+
+            <div>
+              <div class="relative flex py-5 items-center my-[10px]">
+                <div class="grow border-t border-gray-500"></div>
+                <div class="grow border-t border-gray-500"></div>
+              </div>
+            </div>
+            <div class="text-white">
+              <div
+                class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 md:gap-4 text-center"
+              >
+                <div class="md:w-[240px] md:h-[96px] lg:about-card space-y-2">
+                  <h2 class="text-green-500 text-[48px] font-blold">150K+</h2>
+                  <p>Monthly Listeners</p>
+                </div>
+                <div class="md:w-[240px] md:h-[96px] lg:about-card space-y-2">
+                  <h2 class="text-[48px] text-green-500">200+</h2>
+                  <p>Episodes Published</p>
+                </div>
+                <div class="md:w-[240px] md:h-[96px] lg:about-card space-y-2">
+                  <h2 class="text-[48px] text-green-500">4.9★</h2>
+                  <p>Average Rating</p>
+                </div>
+                <div class="md:w-[240px] md:h-[96px] lg:about-card space-y-2">
+                  <h2 class="text-[48px] text-green-500">50+</h2>
+                  <p>Industry Experts</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- why choose TechWave -->
+       section.
+    </main>
   </body>
 </html>

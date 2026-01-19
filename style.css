@@ -2,17 +2,21 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
-body{
-    margin: 0 auto;
+/* style.css */
 
-}
 .gradient-bg {
-  background: linear-gradient(
-    90deg,
-    #F7E93F 0%,
-    #FB09B4 51%,
-    #9100F8 100%
-  );
+  background: linear-gradient(90deg, #f7e93f 0%, #fb09b4 51%, #9100f8 100%);
 }
+/* banner */
+.banner-bg-img {
+  background-image: url(./assets/hero-bg.png);
+}
+/* about */
 
-
+.about {
+  margin: 50px 200px 120px 200px;
+}
+.about-card {
+  width: 240px;
+  height: 96px;
+}
