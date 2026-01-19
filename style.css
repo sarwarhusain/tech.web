@@ -20,6 +20,9 @@
   width: 240px;
   height: 96px;
 }
+.card-about{
+  font-weight: 600;
+}
 /* choose */
 /* .choose {
   max-width: 1600px;
