@@ -1,0 +1,18 @@
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+body{
+    margin: 0 auto;
+
+}
+.gradient-bg {
+  background: linear-gradient(
+    90deg,
+    #F7E93F 0%,
+    #FB09B4 51%,
+    #9100F8 100%
+  );
+}
+
+

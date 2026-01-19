@@ -1,0 +1,52 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech.Wave</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header
+      class="border border-[rgba(65,37,103,1)] bg-[rgba(26,11,46,1)] text-white"
+    >
+      <nav class="shadow-3xl">
+        <div class="max-w-7xl mx-auto px-4">
+          <div class="flex items-center justify-between items-center h-16">
+            <!-- logo -->
+            <h2 class="text-3xl font-blold">
+              Tech
+              <span
+                class="font-bold text-transparent bg-gradient-to-t from-orange-500 via-purple-500 to-blue-600 bg-clip-text"
+                >Wave</span
+              >
+            </h2>
+
+            <!-- Desktop Menu -->
+            <ul class="hidden md:flex space-x-7 items-center">
+              <li><a href="" class="hover:text-cyan-500">About</a></li>
+              <li><a href="" class="hover:text-cyan-500">Episodes</a></li>
+              <li><a href="" class="hover:text-cyan-500">Host</a></li>
+            </ul>
+            <button class="gap-4 hidden md:block gradient-bg p-3 text-sm rounded-3xl">
+              Downloaded<span>→</span>
+            </button>
+            <!-- hamburger -->
+            <img
+              src="./assets/hamburger-menu.png"
+              class="md:hidden text-3xl"
+              alt=""
+            />
+          </div>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
