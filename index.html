@@ -17,8 +17,8 @@
     <header
       class="border border-[rgba(65,37,103,1)] bg-[rgba(26,11,46,1)] text-white"
     >
-      <nav class="shadow-3xl md:mx-[200px] my-[36px]">
-        <div class="max-w-7xl mx-auto px-4">
+      <nav class="shadow-3xl lg:mx-[200px] my-[20px]">
+        <div class="mx-auto px-4">
           <div class="flex items-center justify-between items-center h-16">
             <!-- logo -->
             <h2 class="text-3xl font-blold">
@@ -30,20 +30,20 @@
             </h2>
 
             <!-- Desktop Menu -->
-            <ul class="hidden md:flex space-x-7 items-center">
+            <ul class="hidden lg:flex md:flex space-x-7 items-center">
               <li><a href="" class="hover:text-cyan-500">About</a></li>
               <li><a href="" class="hover:text-cyan-500">Episodes</a></li>
               <li><a href="" class="hover:text-cyan-500">Host</a></li>
             </ul>
             <button
-              class="gap-4 hidden md:block gradient-bg p-3 text-sm rounded-3xl"
+              class="gap-4 hidden md:block lg:block gradient-bg p-3 text-sm rounded-3xl"
             >
               Downloaded<span>→</span>
             </button>
             <!-- hamburger -->
             <img
               src="./assets/hamburger-menu.png"
-              class="md:hidden text-3xl"
+              class="md:hidden lg:hidden text-3xl"
               alt=""
             />
           </div>
@@ -52,10 +52,10 @@
     </header>
     <main class="">
       <!-- banner -->
-      <section>
+      <section class="w-full">
         <div class="flex justify-center">
           <div
-            class="w-full max-w-[1600px] h-[660px] bg-center bg-cover bg-no-repeat banner-bg-img"
+            class="w-full max-w-400 h-165 bg-center bg-cover bg-no-repeat banner-bg-img"
           >
             <div class="relative flex justify-center items-center">
               <p
@@ -102,10 +102,11 @@
         </div>
       </section>
       <!-- about the wave -->
-      <section class="w-full max-w-[1600px] h-[646px] bg-[#1A0B2E]">
-
-        <div class="text-center text-white p-2">
-          <div class="md:mx-[200px] md:mt-[50px] md:mb-[120px] lg:about">
+      <section class="w-full bg-[#1A0B2E]">
+        <div
+          class="text-center text-white lg:px-[200px] lg:pt-[50px] pb-[120px] px-4 pt-8 pb- 16 md:px-12 md:pt-10 md:pb-20 lg:pb-[120px] mx-w-[1600px] mx-auto"
+        >
+          <div class="">
             <h2 class="font-bold text-3xl">About the Podcast</h2>
             <p class="mt-4 text-[16px] mt-5">
               TechWave is your go-to podcast for staying ahead in the fast-paced
@@ -127,21 +128,29 @@
             </div>
             <div class="">
               <div
-                class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 md:gap-4 text-center"
+                class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 md:gap-4 lg:gap-4 text-center"
               >
-                <div class="md:w-[240px] md:h-[96px] lg:about-card space-y-2">
-                  <h2 class="font-bold text-green-500 text-[48px] ">150K+</h2>
+                <div
+                  class="md:w-[240px] md:h-[96px] lg:w-60 lg:h-24 lg:about-card space-y-2"
+                >
+                  <h2 class="font-bold text-green-500 text-[48px]">150K+</h2>
                   <p>Monthly Listeners</p>
                 </div>
-                <div class="md:w-[240px] md:h-[96px] lg:about-card space-y-2">
-                  <h2 class="font-bold text-[48px] text-green-500 ">200+</h2>
+                <div
+                  class="md:w-[240px] lg:w-60 md:h-[96px] lg:w-60 lg:h-24lg:about-card space-y-2"
+                >
+                  <h2 class="font-bold text-[48px] text-green-500">200+</h2>
                   <p>Episodes Published</p>
                 </div>
-                <div class="md:w-[240px] md:h-[96px] lg:about-card space-y-2">
+                <div
+                  class="md:w-[240px] md:h-[96px] lg:w-60 lg:h-24lg:about-card space-y-2"
+                >
                   <h2 class="font-bold text-[48px] text-green-500">4.9★</h2>
                   <p>Average Rating</p>
                 </div>
-                <div class="md:w-[240px] md:h-[96px] lg:about-card space-y-2">
+                <div
+                  class="md:w-[240px] md:h-[96px] lg:w-60 lg:h-24lg:about-card space-y-2"
+                >
                   <h2 class="font-bold text-[48px] text-green-500">50+</h2>
                   <p>Industry Experts</p>
                 </div>
@@ -152,12 +161,14 @@
       </section>
 
       <!-- why choose TechWave -->
-      <section class="w-full max-w-[1600px] h-[1121px] ">
+      <section class="w-full bg-[#230E3D]">
         <div
-          class="md:px-[200px] md:pt-[50px] md:pb-[120px] lg:choose-wave bg-[#230E3D] "
+          class="lg:px-[200px] lg:pt-[50px] pb-[120px] px-4 pt-8 pb- 16 md:px-12 md:pt-10 md:pb-20 lg:pb-[120px] mx-w-[1600px] mx-auto"
         >
           <div>
-            <h2 class="font-bold text-white text-center md:text-[48px] text-[30px] pb-10">
+            <h2
+              class="font-bold text-white text-center md:text-[48px] text-[30px] pb-10"
+            >
               Why Choose TechWave
             </h2>
           </div>
@@ -216,6 +227,119 @@
                   Access show notes, transcripts, and additional learning
                   materials for every episode.
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Episodes -->
+      <section class="w-full bg-[#1A0B2E]">
+        <!-- episode-cards -->
+        <div
+          class="lg:px-[200px] lg:pt-[50px] pb-[120px] px-4 pt-8 pb- 16 md:px-12 md:pt-10 md:pb-20 lg:pb-[120px] mx-w-[1600px] mx-auto"
+        >
+          <h2 class="text-3xl text-center text-white py-10">
+            Featured Episodes
+          </h2>
+
+          <div
+            class="grid grid-cols-1 md:grid-cols-3 gap-3 place-items-center text-white"
+          >
+            <div class="w-full max-w-lg overflow-hidden rounded-3xl">
+              <iframe
+                class="w-full aspect-square"
+                src="https://www.youtube.com/embed/briky1_hRK0?si=FfyNM5QpfPaSHTmy"
+                frameborder="0"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <div class="bg-[#250D44] p-7">
+                <h2 class="text-white text-lg font-blold">
+                  The Future of AI in Everyday Life
+                </h2>
+                <p class="text-sm text-gray-400">
+                  Exploring how artificial intelligence is transforming our
+                  daily routines and what to expect in the next decade.
+                </p>
+                <div class="flex gap-4 items-center mt-2">
+                  <img class="w-5 h-5" src="./assets/clock.png" alt="" />
+                  <h2 class="text-green-500">23 Min</h2>
+                </div>
+              </div>
+            </div>
+            <div class="w-full max-w-lg overflow-hidden rounded-3xl">
+              <iframe
+                class="w-full aspect-square"
+                src="https://www.youtube.com/embed/zGGLeR7SOZ4?si=IRhg_Bt9I3wLxjhi"
+                title="YouTube video player"
+                frameborder="0"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <div class="bg-[#250D44] p-7">
+                <h2 class="text-white text-lg font-blold">
+                  The Future of AI in Everyday Life
+                </h2>
+                <p class="text-sm text-gray-400">
+                  Exploring how artificial intelligence is transforming our
+                  daily routines and what to expect in the next decade.
+                </p>
+                <div class="flex gap-4 items-center mt-2">
+                  <img class="w-5 h-5" src="./assets/clock.png" alt="" />
+                  <h2 class="text-green-500">39 Min</h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="w-full max-w-lg overflow-hidden rounded-3xl">
+              <iframe
+                class="w-full aspect-square"
+                src="https://www.youtube.com/embed/mT-muTvyUIk?si=lSaQJgSYyVTIvqBQ"
+                title="YouTube video player"
+                frameborder="0"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <div class="bg-[#250D44] p-7">
+                <h2 class="text-white text-lg font-blold">
+                  The Future of AI in Everyday Life
+                </h2>
+                <p class="text-sm text-gray-400">
+                  Exploring how artificial intelligence is transforming our
+                  daily routines and what to expect in the next decade.
+                </p>
+                <div class="flex gap-4 items-center mt-2">
+                  <img class="w-5 h-5" src="./assets/clock.png" alt="" />
+                  <h2 class="text-green-500">9 Min</h2>
+                </div>
               </div>
             </div>
           </div>

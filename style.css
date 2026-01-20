@@ -7,15 +7,18 @@
 .gradient-bg {
   background: linear-gradient(90deg, #f7e93f 0%, #fb09b4 51%, #9100f8 100%);
 }
+/* shared */
+.sideMargin {
+  margin: 50px 200px 120px 200px;
+}
 /* banner */
 .banner-bg-img {
   background-image: url(./assets/hero-bg.png);
 }
+
 /* about */
 
-.about {
-  margin: 50px 200px 120px 200px;
-}
+
 .about-card {
   width: 240px;
   height: 96px;
