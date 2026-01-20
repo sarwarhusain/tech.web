@@ -51,39 +51,37 @@
     </header>
     <main class="">
       <!-- banner -->
-      <section class="w-full">
-        <div class="flex justify-center">
-          <div
-            class="w-full max-w-400 h-165 bg-center bg-cover bg-no-repeat banner-bg-img"
-          >
+      <section class=" w-full md:h-165 w-[440px] h-[446px] bg-center bg-cover bg-no-repeat banner-bg-img">
+        <div class="max-w-full justify-center ">
             <div class="relative flex justify-center items-center">
               <p
-                class="bg-green-500 border text-black rounded-3xl px-3 py-2 absolute -mt-40 -mr-43"
+                class="bg-green-500 border text-black rounded-3xl px-3 py-2 absolute md:-mt-40 md:-mr-43 -mt-25 -mr-25"
               >
                 New
               </p>
               <!-- microphone img -->
               <img
-                class="absolute -top z-20 md:w-[116.67px] mt-20"
+                class="absolute   w-[80px]  md:w-[116.67px]  mt-20"
                 src="./assets/microphone.png"
                 alt=""
               />
               <!-- circle img -->
               <img
-                class="microphone mx-auto mt-25 w-[300px] h-[300px]"
+                class="microphone  mx-auto md:mt-25 mt-20 w-[200px] h-[200px] md:w-[300px] md:h-[300px]
+                "
                 src="./assets/hero-circle.png"
                 alt=""
               />
             </div>
-            <div class="text-white text-center">
-              <div class="mt-8">
+            <div class="">
+              <div class="mt-4 text-white text-center ">
                 <h2 class="font-bold text-4xl">TechWave</h2>
                 <p>
                   Your daily dose of tech insights, productivity hacks, and
                   personal growth
                 </p>
               </div>
-              <div class="flex justify-center items-center gap-3 mt-5">
+              <div class="flex justify-center items-center gap-3 pt-4 ">
                 <button class="flex gap-3 gradient-bg p-3 text-sm rounded-3xl">
                   <img src="./assets/spotify.png" alt="" /> Listen on Spotify
                 </button>
@@ -296,11 +294,10 @@
               ></iframe>
               <div class="bg-[#250D44] p-7">
                 <h2 class="text-white text-lg font-blold">
-                  The Future of AI in Everyday Life
+                 The Political Talk show by Adv..
                 </h2>
                 <p class="text-sm text-gray-400">
-                  Exploring how artificial intelligence is transforming our
-                  daily routines and what to expect in the next decade.
+                Practical strategies for staying productive and maintaining work-life balance in a remote environment.
                 </p>
                 <div class="flex gap-4 items-center mt-2">
                   <img class="w-5 h-5" src="./assets/clock.png" alt="" />
@@ -329,11 +326,10 @@
               ></iframe>
               <div class="bg-[#250D44] p-7">
                 <h2 class="text-white text-lg font-blold">
-                  The Future of AI in Everyday Life
+                  Sylhet Won an increadable match
                 </h2>
                 <p class="text-sm text-gray-400">
-                  Exploring how artificial intelligence is transforming our
-                  daily routines and what to expect in the next decade.
+                 Expert advice on navigating your tech career from junior developer to senior leadership roles.
                 </p>
                 <div class="flex gap-4 items-center mt-2">
                   <img class="w-5 h-5" src="./assets/clock.png" alt="" />
@@ -350,7 +346,7 @@
               Meet the Host
             </h2>
             <div
-              class="text-white bg-[#250D44] lg:w-[1200px] lg:h-[280px] rounded-3xl"
+              class="text-white bg-[#250D44] lg:w-[1200px] lg:h-[280px] rounded-3xl lg:p-0 p-10"
             >
               <div
                 class="md:text-start text-center md:flex gap-4 justify-center items-center"
@@ -399,9 +395,9 @@
         </div>
       </section>
       <footer
-        class="w-full bg-cover bg-center bg-no-repeat bg-[url('./assets/footer-bg.png')] py-10"
+        class="max-w-full md:bg-cover md:bg-center md:bg-no-repeat  bg-[url('./assets/footer-bg.png')] py-10"
       >
-        <div class="max-w-7xl px-3 mx-auto">
+        <div class="md:max-w-6xl w-[400px] h-168px  mx-auto">
           <!-- logo -->
           <div
             class="flex justify-center text-center items-center pt-5 font-blold"
@@ -415,23 +411,23 @@
           </div>
           <!-- social media -->
           <div
-            class="md:w-[544px] md:h-[24px] mx-auto grid grid-cols-2 lg:grid-cols-4  mt-5 gap-10 justify-items-center md:justify-items-start"
+            class=" mx-auto grid grid-cols-2 lg:grid-cols-4  mt-5 gap-6 justify-items-center md:justify-items-start"
           >
-            <div class="flex gap-3">
+            <div class="flex gap-3 items-center ">
               <img src="./assets/spotify.png" alt="" />
               <h2 class="text-gray-400">Spotify</h2>
             </div>
-            <div class="flex gap-3">
-              <img src="./assets/spotify.png" alt="" />
-              <h2 class="text-gray-400">Spotify</h2>
+            <div class="flex gap-3 items-center">
+              <img src="./assets/apple-podcast.png" alt="" />
+              <h2 class=" text-gray-400">Apple Podcasts</h2>
             </div>
-            <div class="flex gap-3">
-              <img src="./assets/spotify.png" alt="" />
-              <h2 class="text-gray-400">Spotify</h2>
+            <div class="flex gap-3 items-center">
+              <img src="./assets/youtube-podcast.png" alt="" />
+              <h2 class="text-gray-400">Youtube</h2>
             </div>
-            <div class="flex gap-3">
-              <img src="./assets/spotify.png" alt="" />
-              <h2 class="text-gray-400">Spotify</h2>
+            <div class="flex gap-3 items-center">
+              <img src="./assets/twitter.png" alt="" />
+              <h2 class="text-gray-400">Twitter</h2>
             </div>
           </div>
           <div class="text-white text-center mt-5 text-gray-400">
@@ -439,6 +435,7 @@
           </div>
         </div>
       </footer>
+      
     </main>
   </body>
   <!-- 410*60 -->
